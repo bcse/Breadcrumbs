@@ -6,10 +6,14 @@
 //  Copyright (c) 2014年 Grey Lee. All rights reserved.
 //
 
-#import "BCSEFlipsideViewController.h"
+#import <CoreLocation/CoreLocation.h>
+#import "BCSESettingsViewController.h"
 
-@interface BCSEMainViewController : UIViewController <BCSEFlipsideViewControllerDelegate, UIPopoverControllerDelegate>
+@interface BCSEMainViewController : UIViewController <BCSESettingsViewControllerDelegate, CLLocationManagerDelegate, UIPopoverControllerDelegate>
 
-@property (strong, nonatomic) UIPopoverController *flipsidePopoverController;
+@property (nonatomic, strong) IBOutlet UITextView *logTextView;
+
+- (void)settingsChanged:(NSNotification *)notification;
+- (void)switchToBackgroundMode:(BOOL)background;
 
 @end
