@@ -4,8 +4,9 @@ Breadcrumbs is a simple GPS logger for iOS devices. It can export GPX files.
 
 ## Screenshots
 
-![main](https://raw.github.com/bcse/Breadcrumbs/master/Screenshots/main.png)
-![settings](https://raw.github.com/bcse/Breadcrumbs/master/Screenshots/settings.png)
+![Main](https://raw.github.com/bcse/Breadcrumbs/master/Screenshots/main.png)
+![Settings](https://raw.github.com/bcse/Breadcrumbs/master/Screenshots/settings.png)
+![Terminating Notification](https://raw.github.com/bcse/Breadcrumbs/master/Screenshots/terminating.png)
 
 ## License
 
