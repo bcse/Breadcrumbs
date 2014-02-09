@@ -1,6 +1,6 @@
 # Breadcrumbs
 
-Breadcrumbs is a simple GPS logger for iOS devices. It can export GPX files.
+Breadcrumbs is a simple GPS logger for iPhone and iPad. It can export GPX files.
 
 ## Screenshots
 
