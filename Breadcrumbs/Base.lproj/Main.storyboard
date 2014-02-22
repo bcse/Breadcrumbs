@@ -164,6 +164,38 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection id="VUy-DZ-4y7">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="2XI-1I-Oi8">
+                                        <rect key="frame" x="0.0" y="271" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2XI-1I-Oi8" id="saY-hT-v8k">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ue-M1-h9m">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                                    <state key="normal" title="Reset GPS Log">
+                                                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="resetDB:" destination="uFc-Kd-HgW" eventType="touchUpInside" id="KcP-yM-STD"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="3Ue-M1-h9m" secondAttribute="bottom" id="CVW-Ic-Fid"/>
+                                                <constraint firstAttribute="trailing" secondItem="3Ue-M1-h9m" secondAttribute="trailing" id="GT1-Or-3hW"/>
+                                                <constraint firstItem="3Ue-M1-h9m" firstAttribute="top" secondItem="saY-hT-v8k" secondAttribute="top" id="dwn-u6-RC8"/>
+                                                <constraint firstItem="3Ue-M1-h9m" firstAttribute="leading" secondItem="saY-hT-v8k" secondAttribute="leading" id="odl-Qg-FZZ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="uFc-Kd-HgW" id="YZR-VP-CUT"/>

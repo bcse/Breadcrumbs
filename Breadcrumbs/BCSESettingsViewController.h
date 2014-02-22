@@ -14,6 +14,7 @@
 @protocol BCSESettingsViewControllerDelegate
 
 - (void)settingsViewControllerPerformExportGPX:(BCSESettingsViewController *)controller;
+- (void)settingsViewControllerPerformResetDB:(BCSESettingsViewController *)controller;
 
 @end
 

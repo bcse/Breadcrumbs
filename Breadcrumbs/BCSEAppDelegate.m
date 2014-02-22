@@ -55,15 +55,20 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    // Remove notification observer.
-    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
-    [center removeObserver:self.window.rootViewController];
-    
     // Notify user that we're about to be terminated.
     UILocalNotification *terminatingNotification = [[UILocalNotification alloc] init];
     terminatingNotification.alertBody = @"Breadcrumbs is teminated. Launch it again to continue logging.";
     terminatingNotification.alertAction = @"Launch";
     [application presentLocalNotificationNow:terminatingNotification];
+
+    // Remove notification observer.
+    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+    [center removeObserver:self.window.rootViewController];
+}
+
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application
+{
+    [self applicationWillTerminate:application];
 }
 
 @end

@@ -169,6 +169,12 @@
     DDLogInfo(@"Exporting to GPX finished!");
 }
 
+- (void)settingsViewControllerPerformResetDB:(BCSESettingsViewController *)controller
+{
+    DDLogInfo(@"Reset GPS log");
+    [self.database removeAllObjects];
+}
+
 #pragma mark - CLLocationManagerDelegate
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations

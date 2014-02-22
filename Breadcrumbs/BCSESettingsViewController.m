@@ -16,6 +16,7 @@
 - (IBAction)toggleBackgroundUpdate:(id)sender;
 - (IBAction)toggleBestAccuracy:(id)sender;
 - (IBAction)exportGPX:(id)sender;
+- (IBAction)resetDB:(id)sender;
 
 @end
 
@@ -63,6 +64,11 @@
 - (IBAction)exportGPX:(id)sender
 {
     [self.delegate settingsViewControllerPerformExportGPX:self];
+}
+
+- (IBAction)resetDB:(id)sender
+{
+    [self.delegate settingsViewControllerPerformResetDB:self];
 }
 
 @end
