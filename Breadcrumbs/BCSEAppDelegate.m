@@ -22,6 +22,11 @@
                    name:NSUserDefaultsDidChangeNotification
                  object:nil];
 
+    // Register default preferences
+    NSURL *defaultPrefsFile = [[NSBundle mainBundle] URLForResource:@"DefaultPreferences" withExtension:@"plist"];
+    NSDictionary *defaultPrefs = [NSDictionary dictionaryWithContentsOfURL:defaultPrefsFile];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:defaultPrefs];
+    
     return YES;
 }
 
