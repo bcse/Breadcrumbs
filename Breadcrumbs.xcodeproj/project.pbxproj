@@ -20,6 +20,7 @@
 		0B5DC37618A75429008EAEA2 /* UIDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5DC37218A75429008EAEA2 /* UIDevice+Additions.m */; };
 		0B5DC37718A75429008EAEA2 /* UITextViewLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5DC37418A75429008EAEA2 /* UITextViewLogger.m */; };
 		0B6423ED18A6348D00C9CF65 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6423EC18A6348D00C9CF65 /* CoreLocation.framework */; };
+		0B7C347718C11BED00CC64C1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B7C347618C11BED00CC64C1 /* Settings.bundle */; };
 		0B8063CC18BF8E1900A2C5C5 /* DefaultPreferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B8063CB18BF8E1900A2C5C5 /* DefaultPreferences.plist */; };
 		0BBADC6918A67C7B0034328A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBADC6818A67C7B0034328A /* libc++.dylib */; };
 		4AEE332933704E91B204EFA6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8236B8E25F484E8CBBE52767 /* libPods.a */; };
@@ -48,6 +49,7 @@
 		0B5DC37318A75429008EAEA2 /* UITextViewLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewLogger.h; sourceTree = "<group>"; };
 		0B5DC37418A75429008EAEA2 /* UITextViewLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewLogger.m; sourceTree = "<group>"; };
 		0B6423EC18A6348D00C9CF65 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0B7C347618C11BED00CC64C1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		0B8063CB18BF8E1900A2C5C5 /* DefaultPreferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultPreferences.plist; sourceTree = "<group>"; };
 		0BBADC6818A67C7B0034328A /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		6C7DA44A1A694EA79257AB57 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				0B104F6D18A61BF7001D25D1 /* BCSESettingsViewController.m */,
 				0B104F6F18A61BF7001D25D1 /* Images.xcassets */,
 				0B104F6318A61BF7001D25D1 /* Main.storyboard */,
+				0B7C347618C11BED00CC64C1 /* Settings.bundle */,
 			);
 			path = Breadcrumbs;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				0B104F7018A61BF7001D25D1 /* Images.xcassets in Resources */,
 				0B8063CC18BF8E1900A2C5C5 /* DefaultPreferences.plist in Resources */,
+				0B7C347718C11BED00CC64C1 /* Settings.bundle in Resources */,
 				0B104F5C18A61BF7001D25D1 /* InfoPlist.strings in Resources */,
 				0B104F6518A61BF7001D25D1 /* Main.storyboard in Resources */,
 			);

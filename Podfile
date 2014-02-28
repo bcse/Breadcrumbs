@@ -11,3 +11,8 @@ post_install do |installer|
         puts target.name
     end
 end
+
+post_install do | installer |
+    require 'fileutils'
+    FileUtils.cp_r('Pods/Pods-Acknowledgements.plist', 'Breadcrumbs/Settings.bundle/Acknowledgements.plist', :remove_destination => true)
+end
